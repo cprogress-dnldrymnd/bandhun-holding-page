@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Old+Standard+TT:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Old+Standard+TT:wght@400;700&display=swap");
 body {
   font-size: 21px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 img {
   max-width: 100%;
 }
 h2 {
-  font-family: 'Old Standard TT', serif;
+  font-family: "Old Standard TT", serif;
 }
 section.holding-page {
   .row {
@@ -18,7 +18,7 @@ section.holding-page {
   .main-image {
     background-size: cover;
     background-position: center;
-    @media(max-width: 991px) {
+    @media (max-width: 991px) {
       padding: 30%;
       order: 2;
     }
@@ -35,4 +35,21 @@ section.holding-page {
 
 h2 {
   font-size: 56px;
+}
+
+.fsBody.fsBody {
+  .fsSection {
+    min-width: 0;
+  }
+  .fsForm {
+    border: none;
+    .fsRow {
+      display: flex;
+      display: flex;
+      justify-content: space-between;
+      .fs-clear {
+        display: none;
+      }
+    }
+  }
 }
