@@ -38,15 +38,16 @@ h2 {
     .fsBody.fsBody .fsForm .fsRow .fsRowBody {
       padding: 0;
       float: none; }
-    .fsBody.fsBody .fsForm .fsRow .fsFieldRow input[type="email"],
-    .fsBody.fsBody .fsForm .fsRow .fsFieldRow input[type="number"],
-    .fsBody.fsBody .fsForm .fsRow .fsFieldRow input[type="tel"],
-    .fsBody.fsBody .fsForm .fsRow .fsFieldRow input[type="text"],
+    .fsBody.fsBody .fsForm .fsRow input[type="email"],
+    .fsBody.fsBody .fsForm .fsRow input[type="number"],
+    .fsBody.fsBody .fsForm .fsRow input[type="tel"],
+    .fsBody.fsBody .fsForm .fsRow input[type="text"],
     .fsBody.fsBody .fsForm .fsRow .fsForm textarea {
       width: 100%;
       max-width: 100%;
       background-color: #f6f6f7;
-      border: 1px solid #F3F3F3; }
+      border: 1px solid #F3F3F3;
+      padding: 15px; }
     .fsBody.fsBody .fsForm .fsRow .fs-clear {
       display: none; }
 

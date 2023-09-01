@@ -52,15 +52,16 @@ h2 {
         padding: 0;
         float: none;
       }
-      .fsFieldRow input[type="email"],
-      .fsFieldRow input[type="number"],
-      .fsFieldRow input[type="tel"],
-      .fsFieldRow input[type="text"],
+      input[type="email"],
+      input[type="number"],
+      input[type="tel"],
+      input[type="text"],
       .fsForm textarea {
         width: 100%;
         max-width: 100%;
         background-color: #f6f6f7;
         border: 1px solid#F3F3F3;
+        padding: 15px;
       }
       .fs-clear {
         display: none;
