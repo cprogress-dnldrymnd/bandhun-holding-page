@@ -80,6 +80,10 @@ h2 {
       }
       .fieldset-content {
         .fsOptionLabel {
+          padding: 10px 16px;
+          border-radius: 4px;
+          position: relative;
+          overflow: hidden;
           input {
             &:checked {
               & + span {
@@ -88,11 +92,13 @@ h2 {
             }
           }
           span {
-            padding: 10px 16px;
-            border-radius: 4px;
-            background-color: #FFE8F2;
+            background-color: #ffe8f2;
             color: #fff;
             cursor: pointer;
+            position: absolute;
+            left: 0;
+            top: 0;
+            bottom: 0;
           }
         }
       }
