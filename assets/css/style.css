@@ -60,6 +60,9 @@ h2 {
       border-radius: 7px;
       max-width: 480px;
       width: 100%; }
+      @media (max-width: 575px) {
+        .fsBody.fsBody .fsForm.fsForm .fsSubmit .fsSubmitButton {
+          max-width: 100%; } }
   .fsBody.fsBody .fsForm.fsForm .fsRow {
     display: flex;
     display: flex;
