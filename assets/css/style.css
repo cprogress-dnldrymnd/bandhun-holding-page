@@ -62,7 +62,8 @@ h2 {
     .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel {
       font-size: 0;
       margin-right: 10px;
-      margin-bottom: 10px; }
+      margin-bottom: 10px;
+      line-height: 1; }
       .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel input {
         display: none; }
         .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel input:checked {
@@ -72,13 +73,11 @@ h2 {
             color: #fff; }
       .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel span {
         background-color: #ffe8f2;
-        color: #fff;
         cursor: pointer;
         padding: 10px 16px;
         border-radius: 4px;
         position: relative;
         overflow: hidden;
-        font-size: 15px;
         font-size: 15px;
         display: inline-block; }
     .fsBody.fsBody .fsForm.fsForm .fsRow .fsLabel {

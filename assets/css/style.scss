@@ -83,6 +83,9 @@ h2 {
           font-size: 0;
           margin-right: 10px;
           margin-bottom: 10px;
+          
+    line-height: 1;
+
           input {
             display: none;
             &:checked {
@@ -95,13 +98,11 @@ h2 {
           }
           span {
             background-color: #ffe8f2;
-            color: #fff;
             cursor: pointer;
             padding: 10px 16px;
             border-radius: 4px;
             position: relative;
             overflow: hidden;
-            font-size: 15px;
             font-size: 15px;
             display: inline-block;
           }
