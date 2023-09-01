@@ -80,10 +80,17 @@ h2 {
       }
       .fieldset-content {
         .fsOptionLabel {
+          input {
+            &:checked {
+              & + span {
+                background-color: #e4337e;
+              }
+            }
+          }
           span {
             padding: 10px 16px;
             border-radius: 4px;
-            background-color: #e4337e;
+            background-color: #FFE8F2;
             color: #fff;
             cursor: pointer;
           }
