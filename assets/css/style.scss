@@ -85,6 +85,7 @@ h2 {
           position: relative;
           overflow: hidden;
           input {
+            display: none;
             &:checked {
               & + span {
                 background-color: #e4337e;

@@ -64,8 +64,10 @@ h2 {
       border-radius: 4px;
       position: relative;
       overflow: hidden; }
-      .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel input:checked + span {
-        background-color: #e4337e; }
+      .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel input {
+        display: none; }
+        .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel input:checked + span {
+          background-color: #e4337e; }
       .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel span {
         background-color: #ffe8f2;
         color: #fff;
