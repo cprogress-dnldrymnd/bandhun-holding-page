@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Old+Standard+TT:wght@400;700&display=swap');
+body {
+  font-size: 21px;
+  font-family: 'Nunito', sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+h2 {
+  font-family: 'Old Standard TT', serif;
+}
+section.holding-page {
+  .row {
+    height: 100vh;
+  }
+
+  .main-image {
+    background-size: cover;
+    background-position: center;
+    @media(max-width: 991px) {
+      padding: 30%;
+      order: 2;
+    }
+  }
+
+  .col-content {
+    .column-holder {
+      max-width: 620px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+h2 {
+  font-size: 56px;
+}
