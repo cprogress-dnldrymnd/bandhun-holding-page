@@ -79,7 +79,8 @@ h2 {
         position: relative;
         overflow: hidden;
         font-size: 15px;
-        font-size: 15px; }
+        font-size: 15px;
+        display: inline-block; }
     .fsBody.fsBody .fsForm.fsForm .fsRow .fsLabel {
       line-height: inherit;
       font-size: inherit; }
