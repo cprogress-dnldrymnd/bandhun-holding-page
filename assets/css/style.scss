@@ -15,6 +15,11 @@ section.holding-page {
   .row {
     height: 100vh;
   }
+  .image-box {
+    img {
+      max-width: 400px;
+    }
+  }
 
   .main-image {
     background-size: cover;
