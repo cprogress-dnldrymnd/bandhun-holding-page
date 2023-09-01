@@ -81,6 +81,8 @@ h2 {
       .fieldset-content {
         .fsOptionLabel {
           font-size: 0;
+          margin-right: 10px;
+          margin-bottom: 10px;
           input {
             display: none;
             &:checked {
@@ -99,8 +101,6 @@ h2 {
             border-radius: 4px;
             position: relative;
             overflow: hidden;
-            margin-right: 10px;
-            margin-bottom: 10px;
             font-size: 15px;
             font-size: 15px;
           }
