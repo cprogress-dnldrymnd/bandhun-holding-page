@@ -6,7 +6,9 @@ body {
 img {
   max-width: 100%; }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   font-family: "Old Standard TT", serif; }
 
 section.holding-page .row {
@@ -27,7 +29,7 @@ h2 {
   font-size: 56px; }
 
 .form-box h3 {
-  color: #E31F71; }
+  color: #e31f71; }
 
 .fsBody.fsBody .fsSection {
   min-width: 0;
@@ -48,6 +50,11 @@ h2 {
         width: 50%; }
       .fsBody.fsBody .fsForm.fsForm .fsRow .fsRowBody.fsSpan25 {
         width: 25%; }
+    .fsBody.fsBody .fsForm.fsForm .fsRow .fsLabel {
+      line-height: inherit;
+      font-size: inherit; }
+    .fsBody.fsBody .fsForm.fsForm .fsRow .legend {
+      margin-bottom: 10px; }
     .fsBody.fsBody .fsForm.fsForm .fsRow input[type="email"],
     .fsBody.fsBody .fsForm.fsForm .fsRow input[type="number"],
     .fsBody.fsBody .fsForm.fsForm .fsRow input[type="tel"],
