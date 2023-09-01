@@ -37,6 +37,15 @@ h2 {
 .fsBody.fsBody .fsForm.fsForm {
   border: none;
   box-shadow: none; }
+  .fsBody.fsBody .fsForm.fsForm .fsSubmitButton {
+    background-color: #e4337e;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    border: 1px solid #f3f3f3;
+    border-radius: 7px;
+    max-width: 480px;
+    width: 100%; }
   .fsBody.fsBody .fsForm.fsForm .fsRow {
     display: flex;
     display: flex;
