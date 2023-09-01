@@ -84,6 +84,9 @@ h2 {
           border-radius: 4px;
           position: relative;
           overflow: hidden;
+          margin-right: 10px;
+          margin-bottom: 10px;
+          font-size: 15px;
           input {
             display: none;
             &:checked {
@@ -100,6 +103,7 @@ h2 {
             left: 0;
             top: 0;
             bottom: 0;
+            right: 0;
           }
         }
       }

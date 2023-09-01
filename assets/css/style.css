@@ -63,7 +63,10 @@ h2 {
       padding: 10px 16px;
       border-radius: 4px;
       position: relative;
-      overflow: hidden; }
+      overflow: hidden;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      font-size: 15px; }
       .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel input {
         display: none; }
         .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel input:checked + span {
@@ -75,7 +78,8 @@ h2 {
         position: absolute;
         left: 0;
         top: 0;
-        bottom: 0; }
+        bottom: 0;
+        right: 0; }
     .fsBody.fsBody .fsForm.fsForm .fsRow .fsLabel {
       line-height: inherit;
       font-size: inherit; }
