@@ -73,6 +73,9 @@ h2 {
         width: 50%; }
       .fsBody.fsBody .fsForm.fsForm .fsRow .fsRowBody.fsSpan25 {
         width: 25%; }
+      @media (max-width: 575px) {
+        .fsBody.fsBody .fsForm.fsForm .fsRow .fsRowBody {
+          width: 100%; } }
     .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel {
       font-size: 0;
       margin-right: 10px;

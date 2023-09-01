@@ -97,6 +97,9 @@ h2 {
         &.fsSpan25 {
           width: 25%;
         }
+        @media(max-width: 575px) {
+          width: 100%;
+        }
       }
       .fieldset-content {
         .fsOptionLabel {
