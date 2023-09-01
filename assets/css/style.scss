@@ -47,6 +47,18 @@ h2 {
       display: flex;
       display: flex;
       justify-content: space-between;
+      .fsRowBody {
+        padding: 0;
+        float: none;
+      }
+      .fsFieldRow input[type="email"],
+      .fsFieldRow input[type="number"],
+      .fsFieldRow input[type="tel"],
+      .fsFieldRow input[type="text"],
+      .fsForm textarea {
+        width: 100%;
+        max-width: 100%;
+      }
       .fs-clear {
         display: none;
       }

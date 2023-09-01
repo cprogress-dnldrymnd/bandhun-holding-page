@@ -34,6 +34,16 @@ h2 {
     display: flex;
     display: flex;
     justify-content: space-between; }
+    .fsBody.fsBody .fsForm .fsRow .fsRowBody {
+      padding: 0;
+      float: none; }
+    .fsBody.fsBody .fsForm .fsRow .fsFieldRow input[type="email"],
+    .fsBody.fsBody .fsForm .fsRow .fsFieldRow input[type="number"],
+    .fsBody.fsBody .fsForm .fsRow .fsFieldRow input[type="tel"],
+    .fsBody.fsBody .fsForm .fsRow .fsFieldRow input[type="text"],
+    .fsBody.fsBody .fsForm .fsRow .fsForm textarea {
+      width: 100%;
+      max-width: 100%; }
     .fsBody.fsBody .fsForm .fsRow .fs-clear {
       display: none; }
 
