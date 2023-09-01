@@ -30,6 +30,8 @@ h2 {
 
 .form-box h3 {
   color: #e31f71; }
+.form-box .privacy span {
+  color: #e31f71; }
 
 .fsBody.fsBody .fsSection {
   min-width: 0;
