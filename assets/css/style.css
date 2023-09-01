@@ -43,6 +43,8 @@ h2 {
       float: none; }
       .fsBody.fsBody .fsForm.fsForm .fsRow .fsRowBody.fsSpan50 {
         width: 50%; }
+      .fsBody.fsBody .fsForm.fsForm .fsRow .fsRowBody.fsSpan25 {
+        width: 25%; }
     .fsBody.fsBody .fsForm.fsForm .fsRow input[type="email"],
     .fsBody.fsBody .fsForm.fsForm .fsRow input[type="number"],
     .fsBody.fsBody .fsForm.fsForm .fsRow input[type="tel"],
