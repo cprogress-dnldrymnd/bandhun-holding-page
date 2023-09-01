@@ -70,7 +70,7 @@ h2 {
     .fsBody.fsBody .fsForm.fsForm .fsRow .fsLabel {
       line-height: inherit;
       font-size: inherit; }
-    .fsBody.fsBody .fsForm.fsForm .fsRow .legend {
+    .fsBody.fsBody .fsForm.fsForm .fsRow legend {
       margin-bottom: 10px; }
     .fsBody.fsBody .fsForm.fsForm .fsRow input[type="email"],
     .fsBody.fsBody .fsForm.fsForm .fsRow input[type="number"],
