@@ -42,8 +42,9 @@ h2 {
     min-width: 0;
     font-size: 14px;
   }
-  .fsForm {
+  .fsForm.fsForm {
     border: none;
+    box-shadow: none;
     .fsRow {
       display: flex;
       display: flex;
@@ -51,6 +52,9 @@ h2 {
       .fsRowBody {
         padding: 0;
         float: none;
+        &.fsSpan50 {
+          width: 50%;
+        }
       }
       input[type="email"],
       input[type="number"],
