@@ -63,7 +63,8 @@ h2 {
       padding: 10px 16px;
       border-radius: 4px;
       background-color: #e4337e;
-      color: #fff; }
+      color: #fff;
+      cursor: pointer; }
     .fsBody.fsBody .fsForm.fsForm .fsRow .fsLabel {
       line-height: inherit;
       font-size: inherit; }
