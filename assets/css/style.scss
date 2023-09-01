@@ -40,6 +40,7 @@ h2 {
 .fsBody.fsBody {
   .fsSection {
     min-width: 0;
+    font-size: 14px;
   }
   .fsForm {
     border: none;
@@ -58,6 +59,8 @@ h2 {
       .fsForm textarea {
         width: 100%;
         max-width: 100%;
+        background-color: #f6f6f7;
+        border: 1px solid#F3F3F3;
       }
       .fs-clear {
         display: none;

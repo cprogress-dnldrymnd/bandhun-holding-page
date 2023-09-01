@@ -27,7 +27,8 @@ h2 {
   font-size: 56px; }
 
 .fsBody.fsBody .fsSection {
-  min-width: 0; }
+  min-width: 0;
+  font-size: 14px; }
 .fsBody.fsBody .fsForm {
   border: none; }
   .fsBody.fsBody .fsForm .fsRow {
@@ -43,7 +44,9 @@ h2 {
     .fsBody.fsBody .fsForm .fsRow .fsFieldRow input[type="text"],
     .fsBody.fsBody .fsForm .fsRow .fsForm textarea {
       width: 100%;
-      max-width: 100%; }
+      max-width: 100%;
+      background-color: #f6f6f7;
+      border: 1px solid #F3F3F3; }
     .fsBody.fsBody .fsForm .fsRow .fs-clear {
       display: none; }
 
