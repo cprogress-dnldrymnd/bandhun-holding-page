@@ -50,7 +50,7 @@ h2 {
       display: flex;
       justify-content: space-between;
       .fsRowBody {
-        padding: 0;
+        padding: 8px;
         float: none;
         &.fsSpan50 {
           width: 50%;
@@ -65,7 +65,8 @@ h2 {
         max-width: 100%;
         background-color: #f6f6f7;
         border: 1px solid#F3F3F3;
-        padding: 15px;
+        padding: 10px 15px;
+        border-radius: 10px;
       }
       .fs-clear {
         display: none;
