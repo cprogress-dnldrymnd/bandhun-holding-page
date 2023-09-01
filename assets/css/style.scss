@@ -43,6 +43,8 @@ h2 {
     color: #e31f71;
   }
   .privacy {
+    font-size: 12px;
+    text-align: center;
     span {
       color: #e31f71;
     }
@@ -57,15 +59,21 @@ h2 {
   .fsForm.fsForm {
     border: none;
     box-shadow: none;
-    .fsSubmitButton {
-      background-color: #e4337e;
-      padding: 15px;
-      color: #fff;
-      font-size: 20px;
-      border: 1px solid #f3f3f3;
-      border-radius: 7px;
-      max-width: 480px;
-      width: 100%;
+    .fsSubmit {
+      margin-top: 0;
+      margin-bottom: 10px;
+      padding-bottom: 0;
+      padding-top: 0;
+      .fsSubmitButton {
+        background-color: #e4337e;
+        padding: 15px;
+        color: #fff;
+        font-size: 20px;
+        border: 1px solid #f3f3f3;
+        border-radius: 7px;
+        max-width: 480px;
+        width: 100%;
+      }
     }
     .fsRow {
       display: flex;
@@ -88,8 +96,8 @@ h2 {
           font-size: 0;
           margin-right: 10px;
           margin-bottom: 10px;
-          
-    line-height: 1;
+
+          line-height: 1;
 
           input {
             display: none;
