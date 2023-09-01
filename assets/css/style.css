@@ -60,26 +60,26 @@ h2 {
       .fsBody.fsBody .fsForm.fsForm .fsRow .fsRowBody.fsSpan25 {
         width: 25%; }
     .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel {
-      padding: 10px 16px;
-      border-radius: 4px;
-      position: relative;
-      overflow: hidden;
-      margin-right: 10px;
-      margin-bottom: 10px;
-      font-size: 15px; }
+      font-size: 0; }
       .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel input {
         display: none; }
-        .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel input:checked + span {
-          background-color: #e4337e; }
+        .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel input:checked {
+          color: #fff; }
+          .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel input:checked + span {
+            background-color: #e4337e;
+            color: #fff; }
       .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel span {
         background-color: #ffe8f2;
         color: #fff;
         cursor: pointer;
-        position: absolute;
-        left: 0;
-        top: 0;
-        bottom: 0;
-        right: 0; }
+        padding: 10px 16px;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+        font-size: 15px; }
     .fsBody.fsBody .fsForm.fsForm .fsRow .fsLabel {
       line-height: inherit;
       font-size: inherit; }

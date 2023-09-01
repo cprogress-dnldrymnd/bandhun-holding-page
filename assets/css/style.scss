@@ -80,18 +80,14 @@ h2 {
       }
       .fieldset-content {
         .fsOptionLabel {
-          padding: 10px 16px;
-          border-radius: 4px;
-          position: relative;
-          overflow: hidden;
-          margin-right: 10px;
-          margin-bottom: 10px;
-          font-size: 15px;
+          font-size: 0;
           input {
             display: none;
             &:checked {
+              color: #fff;
               & + span {
                 background-color: #e4337e;
+                color: #fff;
               }
             }
           }
@@ -99,11 +95,14 @@ h2 {
             background-color: #ffe8f2;
             color: #fff;
             cursor: pointer;
-            position: absolute;
-            left: 0;
-            top: 0;
-            bottom: 0;
-            right: 0;
+            padding: 10px 16px;
+            border-radius: 4px;
+            position: relative;
+            overflow: hidden;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-size: 15px;
+            font-size: 15px;
           }
         }
       }
