@@ -14,6 +14,9 @@ section.holding-page .row {
   height: 100vh; }
 section.holding-page .image-box img {
   max-width: 400px; }
+  @media (max-width: 991px) {
+    section.holding-page .image-box img {
+      max-width: 200px; } }
 section.holding-page .main-image {
   background-size: cover;
   background-position: center; }

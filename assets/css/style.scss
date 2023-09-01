@@ -18,6 +18,9 @@ section.holding-page {
   .image-box {
     img {
       max-width: 400px;
+      @media(max-width: 991px) {
+        max-width: 200px;
+      }
     }
   }
 
