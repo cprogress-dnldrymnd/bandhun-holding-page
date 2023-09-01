@@ -7,7 +7,7 @@ body {
 img {
   max-width: 100%;
 }
-h2 {
+h2, h3, h4 {
   font-family: "Old Standard TT", serif;
 }
 section.holding-page {
@@ -36,7 +36,11 @@ section.holding-page {
 h2 {
   font-size: 56px;
 }
-
+.form-box {
+  h3 {
+    color: #E31F71;
+  }
+}
 .fsBody.fsBody {
   .fsSection {
     min-width: 0;
