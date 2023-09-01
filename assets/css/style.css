@@ -75,7 +75,7 @@ h2 {
         width: 25%; }
       @media (max-width: 575px) {
         .fsBody.fsBody .fsForm.fsForm .fsRow .fsRowBody {
-          width: 100%; } }
+          width: 100% !important; } }
     .fsBody.fsBody .fsForm.fsForm .fsRow .fieldset-content .fsOptionLabel {
       font-size: 0;
       margin-right: 10px;
@@ -115,5 +115,8 @@ h2 {
       border-radius: 10px; }
     .fsBody.fsBody .fsForm.fsForm .fsRow .fs-clear {
       display: none; }
+    @media (max-width: 575px) {
+      .fsBody.fsBody .fsForm.fsForm .fsRow {
+        flex-wrap: wrap; } }
 
 /*# sourceMappingURL=style.css.map */

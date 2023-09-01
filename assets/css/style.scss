@@ -18,7 +18,7 @@ section.holding-page {
   .image-box {
     img {
       max-width: 400px;
-      @media(max-width: 991px) {
+      @media (max-width: 991px) {
         max-width: 200px;
       }
     }
@@ -97,8 +97,8 @@ h2 {
         &.fsSpan25 {
           width: 25%;
         }
-        @media(max-width: 575px) {
-          width: 100%;
+        @media (max-width: 575px) {
+          width: 100% !important;
         }
       }
       .fieldset-content {
@@ -152,6 +152,9 @@ h2 {
       }
       .fs-clear {
         display: none;
+      }
+      @media (max-width: 575px) {
+        flex-wrap: wrap;
       }
     }
   }
